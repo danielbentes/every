@@ -1,0 +1,55 @@
+# Agent Registry — Every Inc
+<!-- Updated: 2026-04-01-2130 -->
+
+## Agent Registry
+
+| Agent | Directory | Role | Authority Scope | Applicable Gates | Human Owner |
+|-------|-----------|------|-----------------|------------------|-------------|
+| [Editorial Quality](./editorial-quality/) | `editorial-quality/` | Reviews articles against three rigor tests + AI tells detection | Tier 1 (analysis), Tier 2 (detection), Tier 3 (publication) | [article-publication](../gates/article-publication.md) | Kate Lee + Katie Parrott |
+| [Compound Engineering](./compound-engineering/) | `compound-engineering/` | Executes Plan→Work→Review→Compound cycle | Tier 1 (code gen/review), Tier 2 (auto-fix/compound), Tier 3 (merge) | [code-merge](../gates/code-merge.md) | Product GM (Kieran/Naveen/Yash/Danny) |
+| [Consulting PM (Claudie)](./consulting-pm/) | `consulting-pm/` | Manages consulting engagement logistics, status, deliverables | Tier 1 (internal), Tier 2 (status/prep), Tier 3 (deliverables) | [consulting-deliverable](../gates/consulting-deliverable.md) | Natalia Quintero |
+| [Content Distribution](./content-distribution/) | `content-distribution/` | Generates social posts from published articles | Tier 1 (draft gen), Tier 2 (queue), Tier 3 (posting) | [social-media-publication](../gates/social-media-publication.md) | Anthony Scarpulla |
+
+## Directory Structure Per Agent
+
+Each agent directory contains:
+```
+agents/{role-slug}/
+  system-prompt.md        — Core: identity, context, boundaries, capabilities, collaboration, prompt, reporting
+  tool-permissions.md     — Action/Permission/Condition table
+  self-review-checklist.md — Gate-derived checklist with checkbox items
+```
+
+## Authority Tier Summary
+
+| Tier | Editorial Quality | Compound Engineering | Consulting PM (Claudie) | Content Distribution |
+|------|------------------|---------------------|------------------------|---------------------|
+| **Tier 1** (Autonomous) | Structural analysis, text scanning | Code gen, test execution, 14-agent review | Internal tracking, research, milestone monitoring | Article extraction, voice profiling, draft generation |
+| **Tier 2** (Autonomous + Notify) | AI tells detection, rigor test evaluation | Bug auto-fix, CLAUDE.md updates, knowledge base entries | Status report generation, onboarding workflows, training prep | Draft queuing for Anthony's review |
+| **Tier 3** (Human-in-Loop) | Publication recommendation (Kate, 48h) | Code merge (GM, 24h) | Deliverable delivery (Natalia, 24h), client comms | Social posting (Author + Anthony, 12h) |
+| **Tier 4** (Never) | Editorial direction | Architecture decisions, other GM's config | Financial commitments, cross-engagement data | Social strategy |
+
+## Hard Boundary Coverage
+
+| Boundary | Editorial Quality | Compound Engineering | Consulting PM | Content Distribution |
+|----------|:---:|:---:|:---:|:---:|
+| 1. Never publish without review | Primary | -- | -- | Primary |
+| 2. Never send external comms | -- | -- | Primary | Primary |
+| 3. Never make financial commitments | -- | -- | Primary | -- |
+| 4. Never share client data cross-engagement | -- | -- | Primary | -- |
+| 5. Never merge without review gate | -- | Primary | -- | -- |
+| 6. Never change another GM's config | -- | Primary | -- | -- |
+| 7. Never exceed product PII scope | -- | Primary | -- | -- |
+| 8. Never make ungrounded claims | Primary | -- | Primary | Primary |
+| 9. Never bypass quality gates | Primary | Primary | Primary | Primary |
+
+## Future Agent Candidates
+
+Based on the coordination audit's encoding candidates:
+
+| Candidate | Domain | Est. Hours Saved/Month | Coordination Audit Reference |
+|-----------|--------|:---:|---|
+| Design Request Intake Agent | Design team | ~32 | Quick Win #1: formalize design intake in Linear |
+| Editorial Pipeline Agent | Editorial | ~17 | Quick Win #3: automated Kanban nudges |
+| Cross-GM Knowledge Feed Agent | Engineering | ~12 | Quick Win #3: shared learnings from compound loops |
+| Podcast Logistics Agent | Podcast | ~12 | Encoding candidate #5 |
