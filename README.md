@@ -2,13 +2,15 @@
 
 This repository contains the complete output of running the [AI-First Org Design Kit](https://github.com/synaptiai/synapti-marketplace/tree/main/plugins/ai-first-org-design-kit) on Every Inc, a ~20-person media-software-consulting company that writes about AI, builds AI tools, and teaches companies to adopt AI.
 
-**Article:** [I Encoded Every's Entire Operating System Into 52 Files an AI Agent Can Read](article.md)
+**Article:** [Your Agents Don't Know Who You Are](article.md)
 
 ## The Experiment
 
 One Claude Code session, acting as Every's CEO Dan Shipper, ran the complete 14-skill AI-First Org Design Kit end-to-end, from coordination audit to evolution auditor, producing a full organizational genome, governance framework, quality gates, workflow specifications, role definitions, agent configurations, adoption infrastructure, and evolution mechanisms.
 
 No human intervention between phases. The agent answered all interview questions itself, drawing on research from 63 Every newsletters and articles.
+
+The article itself is part of the experiment: written as Dan Shipper, in his voice, about the process of encoding Every's organizational operating system — produced by the same session that generated the artifacts it describes.
 
 ## By the Numbers
 
