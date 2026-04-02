@@ -14,7 +14,7 @@ The hardest part of going AI-first isn't the technology. It's encoding the taste
 
 ## What We Did: 14 Skills, One Organizational Genome
 
-The AI-First Org Design Kit is a structured toolkit with 14 skills that walk you from organizational diagnosis to agent deployment. Each skill asks interview questions designed to force articulation of tacit knowledge, the things everyone "just knows" but no one has written down.
+The [AI-First Org Design Kit](https://github.com/synaptiai/synapti-marketplace/tree/main/plugins/ai-first-org-design-kit) is a structured toolkit with 14 skills that walk you from organizational diagnosis to agent deployment. Each skill asks interview questions designed to force articulation of tacit knowledge, the things everyone "just knows" but no one has written down.
 
 The process follows a deliberate sequence:
 

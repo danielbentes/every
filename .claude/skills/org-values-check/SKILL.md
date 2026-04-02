@@ -14,10 +14,10 @@ Evaluate a decision or proposed action against organizational values and tradeof
 ## Process
 
 1. Read the organizational values:
-   `$HOME/.ai-first-kit/projects/every/genome/00-identity/VALUES.md`
+   `org-design/genome/00-identity/VALUES.md`
 
 2. Read the tradeoff rules:
-   `$HOME/.ai-first-kit/projects/every/genome/01-decision-architecture/TRADEOFF-RULES.md`
+   `org-design/genome/01-decision-architecture/TRADEOFF-RULES.md`
 
 3. Identify the decision or action to evaluate:
    - From `$ARGUMENTS` if provided

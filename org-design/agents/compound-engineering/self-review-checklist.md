@@ -3,7 +3,7 @@
 Before requesting GM merge approval, verify against these gates:
 
 ### Code Merge Gate (Blocking)
-Full criteria: read `$HOME/.ai-first-kit/projects/every/gates/code-merge.md`
+Full criteria: read `gates/code-merge.md`
 
 - [ ] Approved plan exists and was referenced throughout development
 - [ ] All deviations from the plan documented with rationale

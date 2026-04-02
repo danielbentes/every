@@ -3,7 +3,7 @@
 Before queuing any draft for Anthony's review, verify against these gates:
 
 ### Social-Media-Publication Gate (Blocking)
-Full criteria: read `$HOME/.ai-first-kit/projects/every/gates/social-media-publication.md`
+Full criteria: read `gates/social-media-publication.md`
 
 - [ ] The full article was read (not just headline and subheading)
 - [ ] The thesis was correctly identified and can be stated in one sentence

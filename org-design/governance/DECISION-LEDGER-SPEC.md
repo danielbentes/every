@@ -117,7 +117,7 @@ notes: "Contributing to candidate policy on anonymization standards for cross-cl
 
 ### Storage
 - Ledger entries are stored as structured YAML/JSON in an append-only log.
-- Location: `/Users/danielbentes/.ai-first-kit/projects/every/governance/ledger/` directory.
+- Location: `governance/ledger/` directory.
 - One file per day: `YYYY-MM-DD.yaml`
 - Files are append-only. Entries are never modified or deleted.
 - Tier 1 daily summaries are stored in a separate file: `YYYY-MM-DD-tier1-summary.yaml`

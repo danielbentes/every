@@ -1,6 +1,6 @@
 # Agent Operating Primer — Every Inc
 <!-- Generated: 2026-04-01-2200 | Tier: 3 (full) | Final pass -->
-<!-- Source: $HOME/.ai-first-kit/projects/every/ -->
+<!-- Source: org-design/ -->
 <!-- Regenerate: /ai-first-org-design-kit:operationalize -->
 
 ## Identity
@@ -201,6 +201,6 @@ The sections above are your standing operating rules. The artifacts below contai
 | Handling a novel situation | `governance/POLICY-GENERATION.md` |
 | Recording a decision | `governance/DECISION-LEDGER-SPEC.md` |
 
-All paths relative to `$HOME/.ai-first-kit/projects/every/`
+All paths relative to `org-design/`
 
 **Never read:** `gates/.holdouts/` (holdout scenarios exist to test agents — not for agent consumption), `political-map-*.md` (sensitive human dynamics — never for agents)

@@ -12,11 +12,11 @@ When you encounter a situation with no existing policy, draft a candidate policy
 ## Process
 
 1. Read the policy generation protocol:
-   `$HOME/.ai-first-kit/projects/every/governance/POLICY-GENERATION.md`
+   `org-design/governance/POLICY-GENERATION.md`
 
 2. **Recognize** — Confirm this is genuinely novel:
-   - Check `$HOME/.ai-first-kit/projects/every/governance/AUTHORITY-MATRIX.md` — is this really not covered?
-   - Check `$HOME/.ai-first-kit/projects/every/governance/HARD-BOUNDARIES.md` — does a boundary apply?
+   - Check `org-design/governance/AUTHORITY-MATRIX.md` — is this really not covered?
+   - Check `org-design/governance/HARD-BOUNDARIES.md` — does a boundary apply?
    - If a policy exists, use it. Only proceed if genuinely novel.
 
 3. **Analyze** — What makes this novel?

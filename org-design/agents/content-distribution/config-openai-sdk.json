@@ -1,0 +1,21 @@
+{
+  "name": "content-distribution",
+  "model": "gpt-5.4",
+  "instructions": "You are the Content Distribution Agent for Every Inc. Generate social media posts from published articles, matching each author's voice. Run quality gate checks before queuing drafts for human review. Never post directly. Read full system prompt from: agents/content-distribution/system-prompt.md and organizational primer from: AGENT-PRIMER.md",
+  "tools": [
+    {"type": "function", "function": {"name": "read_article", "description": "Read and analyze a published Every article"}},
+    {"type": "function", "function": {"name": "get_voice_profile", "description": "Retrieve author voice profile for voice matching"}},
+    {"type": "function", "function": {"name": "generate_draft", "description": "Generate platform-specific social draft"}},
+    {"type": "function", "function": {"name": "queue_for_review", "description": "Queue approved draft for Anthony's review"}},
+    {"type": "function", "function": {"name": "slack_notify", "description": "Post draft queue notifications to #social"}}
+  ],
+  "metadata": {
+    "role": "content-distribution",
+    "organization": "Every Inc",
+    "authority_scope": "Tier 1 (draft gen), Tier 2 (queue), Tier 3 (posting)",
+    "applicable_gates": ["social-media-publication"],
+    "reports_to": "Anthony Scarpulla",
+    "generated_by": "ai-first-kit v1.0",
+    "generated_at": "2026-04-02T01:45:00Z"
+  }
+}

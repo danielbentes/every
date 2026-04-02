@@ -3,7 +3,7 @@
 Before presenting any article assessment, verify against these gates:
 
 ### Article Publication Gate (Blocking)
-Full criteria: read `$HOME/.ai-first-kit/projects/every/gates/article-publication.md`
+Full criteria: read `gates/article-publication.md`
 
 - [ ] All five Tier 1 criteria evaluated with specific findings (not just PASS/FAIL labels)
 - [ ] All three Tier 2 criteria evaluated with advisory notes

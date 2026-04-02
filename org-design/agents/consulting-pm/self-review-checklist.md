@@ -3,7 +3,7 @@
 Before requesting Natalia's approval on any client-facing deliverable, verify against these gates:
 
 ### Consulting-Deliverable Gate (Blocking)
-Full criteria: read `$HOME/.ai-first-kit/projects/every/gates/consulting-deliverable.md`
+Full criteria: read `gates/consulting-deliverable.md`
 
 - [ ] All Tier 1 gate criteria pass (grounded experience, no unfamiliar tools, no overselling, client confidentiality)
 - [ ] All Tier 2 gate criteria pass (client customization, actionable recommendations, hands-on component)

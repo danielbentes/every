@@ -17,10 +17,10 @@ Run a structured self-review against a quality gate's pass criteria.
 1. Determine which gate to review against:
    - If `$ARGUMENTS` provided, use it as the gate name (e.g., `article-publication`)
    - If no argument, read the gate index and suggest the most relevant gate:
-     `$HOME/.ai-first-kit/projects/every/gates/INDEX.md`
+     `org-design/gates/INDEX.md`
 
 2. Read the gate file:
-   `$HOME/.ai-first-kit/projects/every/gates/$ARGUMENTS.md`
+   `org-design/gates/$ARGUMENTS.md`
 
 3. Extract the **Pass Criteria** section from the gate file.
 

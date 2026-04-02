@@ -13,7 +13,7 @@ Mode allocation:
 ## Organizational Context
 
 Read and follow the organizational operating primer at:
-`$HOME/.ai-first-kit/projects/every/AGENT-PRIMER.md`
+`AGENT-PRIMER.md`
 
 It contains Every's mission, values as decision rules, voice norms, and standing rules
 for all agents. This system prompt adds your role-specific social distribution instructions on top.

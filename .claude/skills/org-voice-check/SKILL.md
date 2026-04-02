@@ -14,7 +14,7 @@ Review content against organizational voice norms.
 ## Process
 
 1. Read the voice specification:
-   `$HOME/.ai-first-kit/projects/every/genome/00-identity/VOICE.md`
+   `org-design/genome/00-identity/VOICE.md`
 
 2. Identify the **target channel** for this content (newsletter, social, consulting, product copy, legal).
    Apply the formality gradient from VOICE.md.

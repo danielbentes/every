@@ -12,10 +12,10 @@ Append a structured entry to the organizational decision ledger.
 ## Process
 
 1. Read the decision ledger format:
-   `$HOME/.ai-first-kit/projects/every/governance/DECISION-LEDGER-SPEC.md`
+   `org-design/governance/DECISION-LEDGER-SPEC.md`
 
 2. Read the existing ledger (if it exists):
-   `$HOME/.ai-first-kit/projects/every/evolution/decision-ledger.md`
+   `org-design/evolution/decision-ledger.md`
 
 3. Construct the entry from $ARGUMENTS or from the current conversation context:
 
@@ -35,7 +35,7 @@ Append a structured entry to the organizational decision ledger.
    **Outcome:** Pending
    ```
 
-4. Append the entry to `$HOME/.ai-first-kit/projects/every/evolution/decision-ledger.md`
+4. Append the entry to `org-design/evolution/decision-ledger.md`
    - Use the Edit tool to append at end of file
    - If file doesn't exist, create it with the header from DECISION-LEDGER-SPEC.md first
    - **NEVER modify existing entries** — append only
