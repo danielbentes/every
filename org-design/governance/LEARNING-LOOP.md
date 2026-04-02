@@ -1,3 +1,10 @@
+---
+title: Learning Loop
+layout: default
+parent: Governance
+nav_order: 6
+---
+
 # Governance Learning Loop
 
 *Every Inc -- Governance v1.0 -- 2026-04-01*

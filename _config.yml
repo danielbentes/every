@@ -1,0 +1,62 @@
+title: "Every Inc: Organizational Genome"
+description: >-
+  Complete organizational design specification for Every Inc,
+  produced by the AI-First Org Design Kit.
+url: "https://danielbentes.github.io"
+baseurl: "/every"
+
+remote_theme: just-the-docs/just-the-docs@v0.10.1
+
+include:
+  - "org-design/gates/.holdouts"
+
+exclude:
+  - README.md
+  - CLAUDE.md
+  - org-design/ORG-DESIGN-DUMP-2026-04-02-0120.md
+  - .claude/
+  - Gemfile.lock
+  - vendor/
+  # Agent framework config files (no wildcard support in Jekyll)
+  - org-design/agents/editorial-quality/config-anthropic-sdk.py
+  - org-design/agents/editorial-quality/config-openai-sdk.json
+  - org-design/agents/editorial-quality/config-crewai.yaml
+  - org-design/agents/editorial-quality/config-openclaw.yaml
+  - org-design/agents/compound-engineering/config-anthropic-sdk.py
+  - org-design/agents/compound-engineering/config-openai-sdk.json
+  - org-design/agents/compound-engineering/config-crewai.yaml
+  - org-design/agents/compound-engineering/config-openclaw.yaml
+  - org-design/agents/consulting-pm/config-anthropic-sdk.py
+  - org-design/agents/consulting-pm/config-openai-sdk.json
+  - org-design/agents/consulting-pm/config-crewai.yaml
+  - org-design/agents/consulting-pm/config-openclaw.yaml
+  - org-design/agents/content-distribution/config-anthropic-sdk.py
+  - org-design/agents/content-distribution/config-openai-sdk.json
+  - org-design/agents/content-distribution/config-crewai.yaml
+  - org-design/agents/content-distribution/config-openclaw.yaml
+  - org-design/agents/product-gm/config-anthropic-sdk.py
+  - org-design/agents/product-gm/config-openai-sdk.json
+  - org-design/agents/product-gm/config-crewai.yaml
+  - org-design/agents/product-gm/config-openclaw.yaml
+  - org-design/evolution/gate-telemetry.jsonl
+
+color_scheme: light
+search_enabled: true
+search:
+  heading_level: 3
+breadcrumb: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+aux_links:
+  "GitHub":
+    - "https://github.com/danielbentes/every"
+aux_links_new_tab: true
+
+footer_content: >-
+  Built with the
+  <a href="https://github.com/synaptiai/synapti-marketplace/tree/main/plugins/ai-first-org-design-kit">AI-First Org Design Kit</a>.
+
+plugins:
+  - jekyll-remote-theme

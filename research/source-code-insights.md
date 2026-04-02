@@ -1,3 +1,10 @@
+---
+title: Source Code Insights
+layout: default
+parent: Reference
+nav_order: 8
+---
+
 # Every.to Source Code Column - Complete Insights Extraction
 
 > Extracted from 20 articles in Every's Source Code column. Each article analyzed for organizational insights, engineering practices, workflows, tools, team structure, and operational details.

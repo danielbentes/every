@@ -1,3 +1,10 @@
+---
+title: Article Production
+layout: default
+parent: Specifications
+nav_order: 1
+---
+
 # Workflow: Article Production
 
 Layer: L2 (Workflow)

@@ -1,3 +1,10 @@
+---
+title: Maturity Visibility
+layout: default
+parent: Adoption
+nav_order: 2
+---
+
 # Maturity Visibility Infrastructure — Every Inc
 Last updated: 2026-04-01
 

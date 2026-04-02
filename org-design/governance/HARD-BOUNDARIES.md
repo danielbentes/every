@@ -1,3 +1,10 @@
+---
+title: Hard Boundaries
+layout: default
+parent: Governance
+nav_order: 2
+---
+
 # Hard Boundaries
 
 *Every Inc -- Governance v1.0 -- 2026-04-01*

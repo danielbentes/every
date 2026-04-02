@@ -1,3 +1,10 @@
+---
+title: Dan Shipper Style Guide
+layout: default
+parent: Reference
+nav_order: 3
+---
+
 # Dan Shipper Writing Style Guide
 
 A comprehensive profile of Dan Shipper's writing voice, built from direct analysis of his Chain of Thought articles at Every.to. This guide is designed so that anyone writing in Dan's voice---or editing to match it---can produce prose that is recognizably his.

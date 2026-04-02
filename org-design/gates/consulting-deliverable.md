@@ -1,3 +1,10 @@
+---
+title: "Gate: Consulting Deliverable"
+layout: default
+parent: Quality Gates
+nav_order: 3
+---
+
 # Gate: Consulting Deliverable
 
 ## What It Replaces

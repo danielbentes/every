@@ -1,3 +1,10 @@
+---
+title: Session Narrative
+layout: default
+parent: Reference
+nav_order: 5
+---
+
 # Session Narrative: Building Every's Organizational Genome with the AI-First Org Design Kit
 
 ## What Happened

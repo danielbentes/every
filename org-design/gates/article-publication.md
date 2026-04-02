@@ -1,3 +1,10 @@
+---
+title: "Gate: Article Publication"
+layout: default
+parent: Quality Gates
+nav_order: 1
+---
+
 # Gate: Article Publication
 
 ## What It Replaces

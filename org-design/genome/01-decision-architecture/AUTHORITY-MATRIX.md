@@ -1,3 +1,10 @@
+---
+title: "Authority Matrix (Identity)"
+layout: default
+parent: Genome
+nav_order: 4
+---
+
 # Decision Authority Matrix
 
 > This is the organizational decision authority matrix — what gets decided by whom at Every. The `governance/AUTHORITY-MATRIX.md` extends this with agent-type-specific tier assignments (compound engineering, personal, product, consulting, editorial agents), per-tier constraints, and operational detail. Both files are authoritative: this one for organizational identity, governance for agent operations.

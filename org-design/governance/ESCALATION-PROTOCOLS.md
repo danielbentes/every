@@ -1,3 +1,10 @@
+---
+title: Escalation Protocols
+layout: default
+parent: Governance
+nav_order: 3
+---
+
 # Escalation Protocols
 
 *Every Inc -- Governance v1.0 -- 2026-04-01*

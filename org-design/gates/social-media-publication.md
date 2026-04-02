@@ -1,3 +1,10 @@
+---
+title: "Gate: Social Media Publication"
+layout: default
+parent: Quality Gates
+nav_order: 4
+---
+
 # Gate: Social Media Publication
 
 ## What It Replaces

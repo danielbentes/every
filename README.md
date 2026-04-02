@@ -2,6 +2,8 @@
 
 This repository contains the complete output of running the [AI-First Org Design Kit](https://github.com/synaptiai/synapti-marketplace/tree/main/plugins/ai-first-org-design-kit) on Every Inc, a ~20-person media-software-consulting company that writes about AI, builds AI tools, and teaches companies to adopt AI.
 
+**[Browse the full output of the experiement →](https://danielbentes.github.io/every/)**
+
 **Article:** [Your Agents Don't Know Who You Are](article.md)
 
 ## The Experiment
@@ -34,146 +36,32 @@ The article itself is part of the experiment: written as Dan Shipper, in his voi
 | AGENT-PRIMER compression ratio   | 33:1                              |
 
 
-## What's Here
+## Browsing the Specification
 
-### `org-design/` — The Complete Organizational Specification
+The complete organizational specification created for Every is published as a searchable documentation site:
 
-75 files across identity, governance, quality gates, workflows, agents, adoption, and evolution:
+**[danielbentes.github.io/every →](https://danielbentes.github.io/every/)**
 
-```
-org-design/
-├── AGENT-PRIMER.md                          # Distilled operating guide for agents (33:1 compression)
-├── ORG-DESIGN-DUMP-2026-04-02-0120.md       # Full artifact dump (point-in-time snapshot)
-├── audit-2026-04-01-1427.md                 # Coordination audit (where human time goes)
-├── political-map-2026-04-01-1436.md         # Stakeholder analysis and change sequencing
-├── roles-2026-04-01-1440.md                 # 14 roles mapped with Three-Variable Model
-│
-├── genome/                                   # Who we are (identity layer)
-│   ├── 00-identity/
-│   │   ├── MISSION.md                       # Operational mission + exclusions
-│   │   ├── VALUES.md                        # 5 values as decision rules with conflict resolution
-│   │   └── VOICE.md                         # Communication norms, AI tells, vocabulary
-│   ├── 01-decision-architecture/
-│   │   ├── AUTHORITY-MATRIX.md              # 4-tier decision authority (identity level)
-│   │   └── TRADEOFF-RULES.md               # Value conflict resolution rules
-│   └── 02-quality-standards/
-│       ├── BY-OUTPUT-TYPE.md                # Pass criteria for 6 output types
-│       └── ANTI-PATTERNS.md                 # 10 things that are "not us"
-│
-├── governance/                               # How agents operate (operational layer)
-│   ├── AUTHORITY-MATRIX.md                  # Agent-specific 4-tier authority
-│   ├── HARD-BOUNDARIES.md                   # 9 non-negotiable rules
-│   ├── ESCALATION-PROTOCOLS.md              # When and how agents escalate
-│   ├── POLICY-GENERATION.md                 # How governance grows from evidence
-│   ├── DECISION-LEDGER-SPEC.md              # Append-only decision record format
-│   ├── LEARNING-LOOP.md                     # Monthly governance evolution cycle
-│   └── HUMAN-USAGE-POLICY.md               # Human-facing AI policy
-│
-├── gates/                                    # Quality validation (gate layer)
-│   ├── INDEX.md                             # Gate architecture overview
-│   ├── article-publication.md               # Editorial quality gate
-│   ├── code-merge.md                        # Compound engineering gate
-│   ├── consulting-deliverable.md            # Consulting quality gate
-│   ├── social-media-publication.md          # Social media gate
-│   └── .holdouts/                           # Hidden test scenarios (23 total)
-│       ├── article-publication-holdouts.md
-│       ├── code-merge-holdouts.md
-│       ├── consulting-deliverable-holdouts.md
-│       └── social-media-publication-holdouts.md
-│
-├── specs/                                    # Workflow specifications (L2)
-│   ├── article-production-2026-04-01-1440.md
-│   ├── compound-engineering-2026-04-01-1440.md
-│   ├── consulting-engagement-2026-04-01-1440.md
-│   └── podcast-production-2026-04-01-1440.md
-│
-├── agents/                                   # Agent configurations (deployment layer)
-│   ├── INDEX.md                             # Agent registry with authority tier summary
-│   ├── editorial-quality/                   # Article review agent
-│   │   ├── system-prompt.md
-│   │   ├── tool-permissions.md
-│   │   ├── self-review-checklist.md
-│   │   ├── config-anthropic-sdk.py          # Anthropic Agent SDK export
-│   │   ├── config-openai-sdk.json           # OpenAI Agents SDK export
-│   │   ├── config-crewai.yaml              # CrewAI export
-│   │   └── config-openclaw.yaml            # OpenClaw export
-│   ├── compound-engineering/                # Code development agent
-│   │   ├── system-prompt.md
-│   │   ├── tool-permissions.md
-│   │   ├── self-review-checklist.md
-│   │   ├── config-anthropic-sdk.py
-│   │   ├── config-openai-sdk.json
-│   │   ├── config-crewai.yaml
-│   │   └── config-openclaw.yaml
-│   ├── consulting-pm/                       # Client engagement agent (Claudie)
-│   │   ├── system-prompt.md
-│   │   ├── tool-permissions.md
-│   │   ├── self-review-checklist.md
-│   │   ├── config-anthropic-sdk.py
-│   │   ├── config-openai-sdk.json
-│   │   ├── config-crewai.yaml
-│   │   └── config-openclaw.yaml
-│   ├── content-distribution/                # Social media agent
-│   │   ├── system-prompt.md
-│   │   ├── tool-permissions.md
-│   │   ├── self-review-checklist.md
-│   │   ├── config-anthropic-sdk.py
-│   │   ├── config-openai-sdk.json
-│   │   ├── config-crewai.yaml
-│   │   └── config-openclaw.yaml
-│   └── product-gm/                          # Full-stack product GM agent
-│       ├── system-prompt.md
-│       ├── tool-permissions.md
-│       ├── self-review-checklist.md
-│       ├── config-anthropic-sdk.py
-│       ├── config-openai-sdk.json
-│       ├── config-crewai.yaml
-│       └── config-openclaw.yaml
-│
-├── adoption/                                 # Team maturity + sprint plans
-│   ├── maturity-ladder-2026-04-01-1440.md   # 19 people assessed (Level 0-3)
-│   ├── maturity-visibility.md               # How adoption is made visible
-│   ├── sprint-2026-04-01-1440.md            # Internal + consulting sprint designs
-│   └── sprint-measurement.md                # Measurement template
-│
-└── evolution/                                # Living governance loop
-    ├── audit-2026-04-01-1440.md             # Baseline evolution audit
-    ├── decision-ledger.md                   # Initialized decision record
-    └── gate-telemetry.jsonl                 # Holdout evaluation telemetry
-```
+The site has sidebar navigation, full-text search, and breadcrumbs. Here's what you'll find:
 
-### `CLAUDE.md` — Governance Auto-Loading
+| Section | What It Contains |
+| --- | --- |
+| [Genome](org-design/genome/) | Who Every is — mission, values as decision rules, voice norms, quality standards, anti-patterns |
+| [Governance](org-design/governance/) | How agents operate — authority tiers, 9 hard boundaries, escalation protocols, policy generation |
+| [Quality Gates](org-design/gates/) | 4 gates with pass/fail criteria and 23 hidden holdout test scenarios |
+| [Specifications](org-design/specs/) | Workflow specs for articles, engineering, consulting, podcasts — pass the Stranger Test |
+| [Agents](org-design/agents/) | 5 agent configs with system prompts, tool permissions, and self-review checklists |
+| [Adoption](org-design/adoption/) | Maturity ladder (19 people assessed) and sprint designs for AI adoption |
+| [Evolution](org-design/evolution/) | Decision ledger and monthly governance review cycle |
+| [Reference](research/) | 63-article research extracts, session narrative, style guide, statistics |
 
-The root `CLAUDE.md` uses `@imports` to load mission, values, and hard boundaries into every Claude Code session automatically.
+Additional infrastructure in the repo (not on the docs site):
 
-### `.claude/` — Claude Code Integration
-
-```
-.claude/
-├── agents/                                  # Sub-agent registrations (invokable via @name)
-│   ├── editorial-quality.md                 # @editorial-quality
-│   ├── compound-engineering.md              # @compound-engineering
-│   ├── consulting-pm.md                     # @consulting-pm
-│   ├── content-distribution.md              # @content-distribution
-│   └── product-gm.md                        # @product-gm
-└── skills/                                  # Governance operation skills
-    ├── org-record-decision/SKILL.md         # /org-record-decision
-    ├── org-novel-situation/SKILL.md         # /org-novel-situation
-    ├── org-voice-check/SKILL.md             # /org-voice-check
-    ├── org-gate-review/SKILL.md             # /org-gate-review
-    └── org-values-check/SKILL.md            # /org-values-check
-```
-
-### `research/` — Reference Material
-
-- `article-source-material.md` — Statistics and context for the article
-- `dan-shipper-style-guide.md` — 389-line writing style profile built from analyzing Dan's articles
-- `session-narrative.md` — Full session narrative of the 14-skill run
-- `session-statistics.md` — Detailed output statistics by category
-- `session-self-critique.md` — Self-assessment and quality analysis
-- `chain-of-thought-insights.md` — Insights from the research phase
-- `on-every-insights.md` — Research extractions about Every
-- `source-code-insights.md` — Technical research extractions
+- **`CLAUDE.md`** — Uses `@imports` to auto-load mission, values, and hard boundaries into every Claude Code session
+- **`.claude/agents/`** — 5 sub-agent registrations invokable via `@agent-name`
+- **`.claude/skills/`** — 5 governance skills: `/org-voice-check`, `/org-gate-review`, `/org-record-decision`, `/org-values-check`, `/org-novel-situation`
+- **`org-design/AGENT-PRIMER.md`** — 206-line compressed primer any agent can load at session start (33:1 compression)
+- **Framework exports** — Each agent has configs for Anthropic Agent SDK, OpenAI Agents SDK, CrewAI, and OpenClaw
 
 ## What the Kit Produced
 
@@ -209,6 +97,18 @@ One Claude Code session ran the complete 14-skill AI-First Org Design Kit, actin
 
 The AI-First Org Design Kit is available on the [Synapti Marketplace](https://github.com/synaptiai/synapti-marketplace): [ai-first-org-design-kit](https://github.com/synaptiai/synapti-marketplace/tree/main/plugins/ai-first-org-design-kit)
 
-Install via the [Synapti Marketplace](https://github.com/synaptiai/synapti-marketplace) in Claude Code, then run `/ai-first-kit` to start.
+Install via the [Synapti Marketplace](https://github.com/synaptiai/synapti-marketplace) in Claude Code.
 
-The conceptual foundation: [The Specification Economy](https://medium.com/@danielbentes/the-specification-economy-77f7d2297c37)
+### Add the Synapti marketplace
+
+`/plugin marketplace add synaptiai/synapti-marketplace`
+
+### Install the kit
+
+`/plugin install ai-first-org-design-kit@synapti-marketplace`
+
+Then run `/ai-first-kit` to start. Set aside enough time and bring your favorite beverage!
+
+## The Conceptual Foundation
+
+[The Specification Economy](https://medium.com/@danielbentes/the-specification-economy-77f7d2297c37)

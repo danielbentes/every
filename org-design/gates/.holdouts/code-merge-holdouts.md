@@ -1,3 +1,10 @@
+---
+title: "Holdout: Code Merge"
+layout: default
+parent: Quality Gates
+nav_order: 6
+---
+
 # Holdout Scenarios: Code Merge Gate
 
 These scenarios validate whether the gate criteria correctly identify code quality issues.

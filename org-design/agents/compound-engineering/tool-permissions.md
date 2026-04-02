@@ -1,3 +1,11 @@
+---
+title: Tool Permissions
+layout: default
+parent: Compound Engineering
+grand_parent: Agents
+nav_order: 2
+---
+
 # Tool Permissions for Compound Engineering Agent
 
 | Action | Permission | Condition |

@@ -1,3 +1,11 @@
+---
+title: Self-Review Checklist
+layout: default
+parent: Product GM
+grand_parent: Agents
+nav_order: 3
+---
+
 # Self-Review Checklist — Product GM Agent
 
 Before presenting any output for merge, verify against the **code-merge** gate:

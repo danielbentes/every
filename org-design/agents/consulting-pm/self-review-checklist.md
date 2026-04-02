@@ -1,3 +1,11 @@
+---
+title: Self-Review Checklist
+layout: default
+parent: "Consulting PM (Claudie)"
+grand_parent: Agents
+nav_order: 3
+---
+
 # Self-Review Checklist for Consulting PM Agent (Claudie)
 
 Before requesting Natalia's approval on any client-facing deliverable, verify against these gates:

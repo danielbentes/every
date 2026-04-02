@@ -1,3 +1,10 @@
+---
+title: Consulting Engagement
+layout: default
+parent: Specifications
+nav_order: 3
+---
+
 # Workflow: Consulting Engagement Delivery
 
 Layer: L2 (Workflow)

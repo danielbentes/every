@@ -1,3 +1,10 @@
+---
+title: Policy Generation
+layout: default
+parent: Governance
+nav_order: 4
+---
+
 # Policy Generation Protocol
 
 *Every Inc -- Governance v1.0 -- 2026-04-01*

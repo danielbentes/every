@@ -1,3 +1,10 @@
+---
+title: "Quality Standards by Output Type"
+layout: default
+parent: Genome
+nav_order: 7
+---
+
 # Quality Standards by Output Type
 
 ## Newsletter Articles

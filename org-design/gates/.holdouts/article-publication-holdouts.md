@@ -1,3 +1,10 @@
+---
+title: "Holdout: Article Publication"
+layout: default
+parent: Quality Gates
+nav_order: 5
+---
+
 # Holdout Scenarios: Article Publication Gate
 
 These scenarios validate whether the gate criteria correctly identify quality issues.

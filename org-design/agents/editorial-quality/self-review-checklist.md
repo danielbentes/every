@@ -1,3 +1,11 @@
+---
+title: Self-Review Checklist
+layout: default
+parent: Editorial Quality
+grand_parent: Agents
+nav_order: 3
+---
+
 # Self-Review Checklist for Editorial Quality Agent
 
 Before presenting any article assessment, verify against these gates:

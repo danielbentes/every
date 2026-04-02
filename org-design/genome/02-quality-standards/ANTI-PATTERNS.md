@@ -1,3 +1,10 @@
+---
+title: Anti-Patterns
+layout: default
+parent: Genome
+nav_order: 6
+---
+
 # Organizational Anti-Patterns
 
 Things that are technically correct but "not us." These are taste markers — the difference between generic output and output that feels like it came from Every.

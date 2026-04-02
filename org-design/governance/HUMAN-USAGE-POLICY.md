@@ -1,3 +1,10 @@
+---
+title: Human Usage Policy
+layout: default
+parent: Governance
+nav_order: 7
+---
+
 # AI Usage Policy — Every Inc
 
 *For Humans -- v1.0 -- 2026-04-01*

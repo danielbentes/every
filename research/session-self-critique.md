@@ -1,3 +1,10 @@
+---
+title: Session Self-Critique
+layout: default
+parent: Reference
+nav_order: 6
+---
+
 # Self-Critique: What I Did Well, What I Got Wrong, and What I Would Change
 
 ## What Went Well

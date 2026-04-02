@@ -1,3 +1,10 @@
+---
+title: Voice
+layout: default
+parent: Genome
+nav_order: 3
+---
+
 # Communication Norms
 
 ## External Communication

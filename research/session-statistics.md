@@ -1,3 +1,10 @@
+---
+title: Session Statistics
+layout: default
+parent: Reference
+nav_order: 7
+---
+
 # Session Statistics: Every Inc AI-First Org Design Kit
 
 ## Output Summary

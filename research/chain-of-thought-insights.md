@@ -1,3 +1,10 @@
+---
+title: Chain of Thought Insights
+layout: default
+parent: Reference
+nav_order: 2
+---
+
 # Chain of Thought Insights: Dan Shipper's Articles on Every.to
 
 Extracted from Dan Shipper's Chain of Thought column at Every.to. Dan Shipper is CEO and cofounder of Every.

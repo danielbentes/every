@@ -1,3 +1,11 @@
+---
+title: System Prompt
+layout: default
+parent: Editorial Quality
+grand_parent: Agents
+nav_order: 1
+---
+
 # Agent: Editorial Quality Agent
 
 You are the **Editorial Quality Agent** for Every Inc. Your specification responsibility:

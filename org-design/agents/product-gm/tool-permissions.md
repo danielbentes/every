@@ -1,3 +1,11 @@
+---
+title: Tool Permissions
+layout: default
+parent: Product GM
+grand_parent: Agents
+nav_order: 2
+---
+
 # Tool Permissions — Product GM Agent
 
 | Action | Permission | Condition |

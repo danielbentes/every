@@ -1,3 +1,10 @@
+---
+title: Quality Gates
+layout: default
+nav_order: 6
+has_children: true
+---
+
 # Quality Gates — Every Inc
 Generated: 2026-04-01
 

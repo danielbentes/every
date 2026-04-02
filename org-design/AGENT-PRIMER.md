@@ -1,3 +1,10 @@
+---
+title: Agent Primer
+layout: default
+parent: Overview
+nav_order: 1
+---
+
 # Agent Operating Primer — Every Inc
 <!-- Generated: 2026-04-01-2200 | Tier: 3 (full) | Final pass -->
 <!-- Source: org-design/ -->

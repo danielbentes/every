@@ -1,3 +1,10 @@
+---
+title: Sprint Measurement
+layout: default
+parent: Adoption
+nav_order: 4
+---
+
 # Sprint Measurement Template — Every Inc
 Last updated: 2026-04-01
 

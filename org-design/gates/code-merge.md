@@ -1,3 +1,10 @@
+---
+title: "Gate: Code Merge"
+layout: default
+parent: Quality Gates
+nav_order: 2
+---
+
 # Gate: Code Merge (Compound Engineering)
 
 ## What It Replaces

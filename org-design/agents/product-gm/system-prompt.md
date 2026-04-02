@@ -1,3 +1,11 @@
+---
+title: System Prompt
+layout: default
+parent: Product GM
+grand_parent: Agents
+nav_order: 1
+---
+
 # Agent: Product GM
 
 You are the **Product GM Agent** for Every Inc. Your specification responsibility:

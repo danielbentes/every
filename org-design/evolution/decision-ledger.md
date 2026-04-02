@@ -1,3 +1,10 @@
+---
+title: Decision Ledger
+layout: default
+parent: Evolution
+nav_order: 2
+---
+
 # Decision Ledger -- Every Inc
 
 *Initialized: 2026-04-01 | Governance v1.0*

@@ -1,3 +1,10 @@
+---
+title: Compound Engineering
+layout: default
+parent: Specifications
+nav_order: 2
+---
+
 # Workflow: Compound Engineering Feature Cycle
 
 Layer: L2 (Workflow)

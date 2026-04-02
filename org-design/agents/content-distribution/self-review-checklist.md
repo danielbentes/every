@@ -1,3 +1,11 @@
+---
+title: Self-Review Checklist
+layout: default
+parent: Content Distribution
+grand_parent: Agents
+nav_order: 3
+---
+
 # Self-Review Checklist for Content Distribution Agent
 
 Before queuing any draft for Anthony's review, verify against these gates:

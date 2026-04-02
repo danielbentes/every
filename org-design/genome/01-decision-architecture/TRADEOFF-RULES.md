@@ -1,3 +1,10 @@
+---
+title: Tradeoff Rules
+layout: default
+parent: Genome
+nav_order: 5
+---
+
 # Value Conflict Resolution Rules
 
 When organizational values conflict, use these rules to decide.

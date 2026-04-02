@@ -1,3 +1,10 @@
+---
+title: Maturity Ladder
+layout: default
+parent: Adoption
+nav_order: 1
+---
+
 # AI Adoption Maturity Ladder — Every Inc.
 Date: 2026-04-01
 

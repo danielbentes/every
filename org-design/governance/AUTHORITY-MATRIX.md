@@ -1,3 +1,10 @@
+---
+title: Agent Authority Matrix
+layout: default
+parent: Governance
+nav_order: 1
+---
+
 # Agent Decision Authority Matrix
 
 *Every Inc -- Governance v1.0 -- 2026-04-01*

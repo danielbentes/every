@@ -1,3 +1,11 @@
+---
+title: Self-Review Checklist
+layout: default
+parent: Compound Engineering
+grand_parent: Agents
+nav_order: 3
+---
+
 # Self-Review Checklist for Compound Engineering Agent
 
 Before requesting GM merge approval, verify against these gates:

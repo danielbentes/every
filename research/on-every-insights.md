@@ -1,3 +1,10 @@
+---
+title: On Every Insights
+layout: default
+parent: Reference
+nav_order: 4
+---
+
 # Every.to -- Comprehensive Organizational Intelligence Report
 
 > Compiled: April 1, 2026

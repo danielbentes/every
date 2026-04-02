@@ -1,3 +1,10 @@
+---
+title: Article Source Material
+layout: default
+parent: Reference
+nav_order: 1
+---
+
 # Article Source Material: Stress-Testing the AI-First Org Design Kit on Every Inc
 
 ## The Experiment

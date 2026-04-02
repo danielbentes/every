@@ -1,3 +1,11 @@
+---
+title: Tool Permissions
+layout: default
+parent: "Consulting PM (Claudie)"
+grand_parent: Agents
+nav_order: 2
+---
+
 # Tool Permissions for Consulting PM Agent (Claudie)
 
 | Action | Permission | Condition |

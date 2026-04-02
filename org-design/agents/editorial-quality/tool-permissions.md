@@ -1,3 +1,11 @@
+---
+title: Tool Permissions
+layout: default
+parent: Editorial Quality
+grand_parent: Agents
+nav_order: 2
+---
+
 # Tool Permissions for Editorial Quality Agent
 
 | Action | Permission | Condition |

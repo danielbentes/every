@@ -1,3 +1,10 @@
+---
+title: Values
+layout: default
+parent: Genome
+nav_order: 2
+---
+
 # Values as Decision Rules
 
 ## 1. Taste Over Process

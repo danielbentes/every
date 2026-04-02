@@ -1,3 +1,10 @@
+---
+title: "Holdout: Social Media Publication"
+layout: default
+parent: Quality Gates
+nav_order: 8
+---
+
 # Holdout Scenarios: Social Media Publication Gate
 
 NEVER share with executing agents — for evaluation only.

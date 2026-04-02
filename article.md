@@ -1,3 +1,9 @@
+---
+title: "Your Agents Don't Know Who You Are"
+layout: default
+nav_order: 2
+---
+
 # Your Agents Don't Know Who You Are
 
 Every organization runs on an operating system. Not the kind you install — the kind that lives in the CEO's head. The anthropologist Clifford Geertz called culture "the stories people tell themselves about themselves." Organizations are the same. They run on stories about how we work that have never been written down. The unwritten rules about what "quality" means, who decides what, when to ship and when to hold, what you'd never do regardless of the upside. At most companies, this operating system has never been written down. It doesn't need to be, because it travels through hallway conversations and shared instincts.

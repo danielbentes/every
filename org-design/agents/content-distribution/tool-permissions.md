@@ -1,3 +1,11 @@
+---
+title: Tool Permissions
+layout: default
+parent: Content Distribution
+grand_parent: Agents
+nav_order: 2
+---
+
 # Tool Permissions for Content Distribution Agent
 
 | Action | Permission | Condition |

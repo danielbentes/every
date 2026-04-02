@@ -1,3 +1,10 @@
+---
+title: Decision Ledger Spec
+layout: default
+parent: Governance
+nav_order: 5
+---
+
 # Decision Ledger Specification
 
 *Every Inc -- Governance v1.0 -- 2026-04-01*

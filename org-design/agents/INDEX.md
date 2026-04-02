@@ -1,3 +1,10 @@
+---
+title: Agents
+layout: default
+nav_order: 8
+has_children: true
+---
+
 # Agent Registry — Every Inc
 <!-- Updated: 2026-04-02-0130 -->
 

@@ -1,3 +1,10 @@
+---
+title: Mission
+layout: default
+parent: Genome
+nav_order: 1
+---
+
 # Mission
 
 ## Operational Mission

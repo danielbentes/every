@@ -1,3 +1,10 @@
+---
+title: Podcast Production
+layout: default
+parent: Specifications
+nav_order: 4
+---
+
 # Workflow: Podcast Episode Production (AI & I)
 
 Layer: L2 (Workflow)

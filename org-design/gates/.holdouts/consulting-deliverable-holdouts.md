@@ -1,3 +1,10 @@
+---
+title: "Holdout: Consulting Deliverable"
+layout: default
+parent: Quality Gates
+nav_order: 7
+---
+
 # Holdout Scenarios: Consulting Deliverable Gate
 
 NEVER share with executing agents — for evaluation only.
