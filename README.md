@@ -14,6 +14,8 @@ No human intervention between phases. The agent answered all interview questions
 
 The article itself is part of the experiment: written as Dan Shipper, in his voice, about the process of encoding Every's organizational operating system — produced by the same session that generated the artifacts it describes.
 
+*The experiment was run on public information from Every's published articles. Dan Shipper and the Every team were not involved in producing this output --- it's a demonstration of what the kit can do with publicly available organizational signal. That said: Dan, Kate, Natalia, Kieran, Danny, Naveen, Yash --- if you're reading this, I hope the output does justice to what you've built. Every is one of the most legible AI-first organizations out there, which is exactly why it made for such a compelling test case.*
+
 ## By the Numbers
 
 
@@ -44,23 +46,25 @@ The complete organizational specification created for Every is published as a se
 
 The site has sidebar navigation, full-text search, and breadcrumbs. Here's what you'll find:
 
-| Section | What It Contains |
-| --- | --- |
-| [Genome](org-design/genome/) | Who Every is — mission, values as decision rules, voice norms, quality standards, anti-patterns |
+
+| Section                              | What It Contains                                                                                 |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| [Genome](org-design/genome/)         | Who Every is — mission, values as decision rules, voice norms, quality standards, anti-patterns  |
 | [Governance](org-design/governance/) | How agents operate — authority tiers, 9 hard boundaries, escalation protocols, policy generation |
-| [Quality Gates](org-design/gates/) | 4 gates with pass/fail criteria and 23 hidden holdout test scenarios |
-| [Specifications](org-design/specs/) | Workflow specs for articles, engineering, consulting, podcasts — pass the Stranger Test |
-| [Agents](org-design/agents/) | 5 agent configs with system prompts, tool permissions, and self-review checklists |
-| [Adoption](org-design/adoption/) | Maturity ladder (19 people assessed) and sprint designs for AI adoption |
-| [Evolution](org-design/evolution/) | Decision ledger and monthly governance review cycle |
-| [Reference](research/) | 63-article research extracts, session narrative, style guide, statistics |
+| [Quality Gates](org-design/gates/)   | 4 gates with pass/fail criteria and 23 hidden holdout test scenarios                             |
+| [Specifications](org-design/specs/)  | Workflow specs for articles, engineering, consulting, podcasts — pass the Stranger Test          |
+| [Agents](org-design/agents/)         | 5 agent configs with system prompts, tool permissions, and self-review checklists                |
+| [Adoption](org-design/adoption/)     | Maturity ladder (19 people assessed) and sprint designs for AI adoption                          |
+| [Evolution](org-design/evolution/)   | Decision ledger and monthly governance review cycle                                              |
+| [Reference](research/)               | 63-article research extracts, session narrative, style guide, statistics                         |
+
 
 Additional infrastructure in the repo (not on the docs site):
 
-- **`CLAUDE.md`** — Uses `@imports` to auto-load mission, values, and hard boundaries into every Claude Code session
-- **`.claude/agents/`** — 5 sub-agent registrations invokable via `@agent-name`
-- **`.claude/skills/`** — 5 governance skills: `/org-voice-check`, `/org-gate-review`, `/org-record-decision`, `/org-values-check`, `/org-novel-situation`
-- **`org-design/AGENT-PRIMER.md`** — 206-line compressed primer any agent can load at session start (33:1 compression)
+- `**CLAUDE.md`** — Uses `@imports` to auto-load mission, values, and hard boundaries into every Claude Code session
+- `**.claude/agents/**` — 5 sub-agent registrations invokable via `@agent-name`
+- `**.claude/skills/**` — 5 governance skills: `/org-voice-check`, `/org-gate-review`, `/org-record-decision`, `/org-values-check`, `/org-novel-situation`
+- `**org-design/AGENT-PRIMER.md**` — 206-line compressed primer any agent can load at session start (33:1 compression)
 - **Framework exports** — Each agent has configs for Anthropic Agent SDK, OpenAI Agents SDK, CrewAI, and OpenClaw
 
 ## What the Kit Produced
@@ -83,7 +87,7 @@ How to deploy and evolve. Five agent configurations (editorial, engineering, con
 
 ### Layer 5: Operationalization (The Bridge)
 
-AGENT-PRIMER.md distills ~7,000 lines of specification into 206 actionable operating rules any agent can load (33:1 compression). CLAUDE.md with @imports so governance auto-loads at session start. Five invokable `/org-*` skills for governance operations. Five Claude Code sub-agents registered for direct invocation via `@agent-name`.
+AGENT-PRIMER.md distills ~7,000 lines of specification into 206 actionable operating rules any agent can load (33:1 compression). CLAUDE.md with @imports so governance auto-loads at session start. Five invokable `/org-`* skills for governance operations. Five Claude Code sub-agents registered for direct invocation via `@agent-name`.
 
 ## Key Insight
 
