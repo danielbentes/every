@@ -2,7 +2,7 @@
 
 ## The Experiment
 
-One Claude Code session, acting as Every's CEO Dan Shipper, ran the complete 13-skill AI-First Org Design Kit end-to-end — from coordination audit to evolution auditor — producing a full organizational genome, governance framework, quality gates, workflow specifications, role definitions, agent configurations, adoption infrastructure, and evolution mechanisms.
+One Claude Code session, acting as Every's CEO Dan Shipper, ran the complete 14-skill AI-First Org Design Kit end-to-end — from coordination audit to evolution auditor — producing a full organizational genome, governance framework, quality gates, workflow specifications, role definitions, agent configurations, adoption infrastructure, and evolution mechanisms.
 
 No human intervention between phases. The agent answered all interview questions itself, drawing on research from 63 Every newsletters and articles.
 
@@ -11,23 +11,23 @@ No human intervention between phases. The agent answered all interview questions
 
 | Metric                           | Value                            |
 | -------------------------------- | -------------------------------- |
-| Total files produced             | 50                               |
+| Total files produced             | 75                               |
 | Total lines written              | 11,907                           |
 | Articles researched              | 63                               |
 | Research lines extracted         | 2,397                            |
 | Subagents spawned                | 19                               |
-| Skills invoked                   | 13 (full kit)                    |
+| Skills invoked                   | 14 (full kit)                    |
 | Genome files                     | 7                                |
 | Governance documents             | 7                                |
 | Quality gates                    | 4 (with 23 holdout scenarios)    |
 | Workflow specifications          | 4                                |
 | Roles mapped                     | 14                               |
-| Agent configurations             | 4                                |
+| Agent configurations             | 5                                |
 | Claude Code governance skills    | 5                                |
 | Hard boundaries defined          | 9                                |
 | Anti-patterns documented         | 10                               |
 | Team members assessed (maturity) | 19                               |
-| AGENT-PRIMER compression ratio   | 52:1                             |
+| AGENT-PRIMER compression ratio   | 33:1                             |
 | Errors found in audit            | 3 critical, 6 important, 6 minor |
 | Errors fixed                     | 3 critical (all fixed)           |
 
@@ -48,11 +48,11 @@ How work flows through Every. Four workflow specifications that pass the Strange
 
 ### Layer 4: Agents + Evolution (Deployment)
 
-How to deploy and evolve. Four agent configurations (editorial, engineering, consulting, distribution) with system prompts, tool permissions, and self-review checklists. Maturity ladder assessing 19 team members. Two adoption sprint designs. A decision ledger and monthly evolution audit cycle.
+How to deploy and evolve. Five agent configurations (editorial, engineering, consulting, distribution, product GM) with system prompts, tool permissions, and self-review checklists. Maturity ladder assessing 19 team members. Two adoption sprint designs. A decision ledger and monthly evolution audit cycle.
 
 ### Layer 5: Operationalization (The Bridge)
 
-AGENT-PRIMER.md — 175 lines that distill 9,208 lines into actionable operating rules any agent can load. CLAUDE.md with @imports so governance auto-loads at session start. Five invokable `/org-*` skills for governance operations in Claude Code.
+AGENT-PRIMER.md — 206 lines that distill ~7,000 lines of specification into actionable operating rules any agent can load (33:1 compression). CLAUDE.md with @imports so governance auto-loads at session start. Five invokable `/org-*` skills for governance operations in Claude Code.
 
 ## Key Insight
 

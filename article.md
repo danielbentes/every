@@ -30,9 +30,10 @@ The process follows a deliberate sequence:
 10. **Adoption Sprint Designer:** Design sprints that convert Level 2 users into Level 3 tool-builders
 11. **Usage Policy Writer:** Create a human-facing AI policy with risk reasoning
 12. **Agent Builder:** Generate role-specific agent configs with system prompts and self-review
-13. **Evolution Auditor:** Establish baselines and set up the monthly governance review cycle
+13. **Holdout Evaluator:** Validate agent output against hidden holdout scenarios with LLM-as-judge
+14. **Evolution Auditor:** Establish baselines and set up the monthly governance review cycle
 
-Each skill produces structured markdown files. Together they form a complete organizational specification: 52 files totaling nearly 4,000 lines of operating instructions, quality standards, governance rules, and agent configurations. All discoverable by downstream skills, all cross-referenced, all grounded in Every's actual practices.
+Each skill produces structured markdown files. Together they form a complete organizational specification: 52 files totaling nearly 7,000 lines of operating instructions, quality standards, governance rules, and agent configurations. All discoverable by downstream skills, all cross-referenced, all grounded in Every's actual practices.
 
 The interview questions are where the real work happens. "Name 3-5 things your organization genuinely values. Not wall-poster values, things that actually drive decisions when things get hard." "When two of your values conflict, which one wins? Walk me through a real example." "What should an agent NEVER decide on its own?" These are questions most CEOs have never been asked. Answering them well is the difference between a genome agents can operate from and a document that sounds nice but tells an agent nothing useful.
 
@@ -118,13 +119,13 @@ We also designed a consulting client template based on the internal sprint. Ever
 
 The capstone is operationalization: distilling everything into formats agents and humans can use daily.
 
-The **AGENT-PRIMER.md** is 206 lines that compress nearly 4,000 lines of organizational specification into actionable operating rules. Every line answers "what should I do?" or "what should I never do?", not "why was this designed this way?" An agent loading the primer at session start knows Every's mission, values with priority ordering, voice norms, quality standards per output type, all nine hard boundaries, the four-tier authority model, escalation routing, quality gate criteria, and governance operations (how to handle novel situations, record decisions, and classify failures).
+The **AGENT-PRIMER.md** is 206 lines that compress nearly 7,000 lines of organizational specification into actionable operating rules. Every line answers "what should I do?" or "what should I never do?", not "why was this designed this way?" An agent loading the primer at session start knows Every's mission, values with priority ordering, voice norms, quality standards per output type, all nine hard boundaries, the four-tier authority model, escalation routing, quality gate criteria, and governance operations (how to handle novel situations, record decisions, and classify failures).
 
 The **CLAUDE.md** with @imports auto-loads mission, values, and hard boundaries at every Claude Code session start. This means every agent working in Every's codebase has the organizational foundation in context without anyone having to remember to paste it.
 
 Five **governance skills** are invokable as `/org-voice-check` (review output against voice norms), `/org-gate-review` (self-review against a quality gate), `/org-record-decision` (append to the decision ledger), `/org-values-check` (evaluate a decision against the value hierarchy), and `/org-novel-situation` (draft a candidate policy for situations governance doesn't cover yet).
 
-Four **agent configurations** (editorial quality, compound engineering, consulting PM, and content distribution), each with a system prompt, tool permissions, and self-review checklist mapped to their applicable quality gate.
+Five **agent configurations** (editorial quality, compound engineering, consulting PM, content distribution, and product GM), each with a system prompt, tool permissions, and self-review checklist mapped to their applicable quality gate.
 
 And a **living evolution loop**: monthly governance review, decision ledger tracking every consequential agent decision, and a learning loop that evolves governance from operational evidence rather than committee meetings.
 
@@ -150,7 +151,7 @@ And then the maturity ladder showed me something I genuinely didn't expect. I kn
 
 ## How to Do This for Your Organization
 
-You don't need thirteen skills in one session. Start with two:
+You don't need fourteen skills in one session. Start with two:
 
 **First, build your genome.** Run the org genome builder. Answer the eleven questions honestly. Not the marketing version. The operational version. Encode your values as decision rules with conflict resolution. Define your voice. Set quality standards per output type. Apply the Stranger Test: could someone with zero context about your organization read this genome and produce output you'd accept?
 

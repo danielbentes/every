@@ -19,7 +19,7 @@
 | Quality Gates | 9 | 386 | 4 gates + 4 holdout sets + index (23 holdout scenarios total) |
 | Specifications | 4 | 656 | Article production, compound engineering, consulting, podcast |
 | Roles | 1 | 553 | 14 roles decomposed with Three-Variable Model |
-| Agents | 5 | 1,021 | 4 agent configs + index |
+| Agents | 5 | 1,021 | 5 agent configs + index |
 | Adoption | 2 | 973 | Maturity ladder (19 assessments) + 2 sprint designs |
 | Evolution | 2 | 524 | Baseline audit + decision ledger |
 | Operational | 2 | 2,846 | AGENT-PRIMER (175 lines) + ORG-DESIGN-DUMP (2,671 lines) |
@@ -71,12 +71,12 @@ Additional web searches: ~30 queries across multiple agents
 
 ## Key Metrics
 
-- **Compression ratio:** 9,208 lines of source → 175 lines of AGENT-PRIMER (52:1)
+- **Compression ratio:** 6,868 lines of source → 206 lines of AGENT-PRIMER (33:1) *[post-revision; original session: 9,208 → 175 = 52:1]*
 - **Holdout scenarios:** 23 across 4 gates
 - **Hard boundaries:** 9 non-negotiable rules
 - **Team members assessed:** 19 (maturity ladder)
 - **Roles mapped:** 14 (Three-Variable Model)
-- **Agent configurations:** 4 (editorial, engineering, consulting, distribution)
+- **Agent configurations:** 5 (editorial, engineering, consulting, distribution, product GM) *[product GM added in revision]*
 - **Claude Code skills generated:** 5 (`/org-*` commands)
 - **Value conflicts modeled:** 5 specific tradeoff rules
 - **Anti-patterns documented:** 10 organizational taste markers

@@ -6,29 +6,31 @@ This repository contains the complete output of running the [AI-First Org Design
 
 ## The Experiment
 
-One Claude Code session, acting as Every's CEO Dan Shipper, ran the complete 13-skill AI-First Org Design Kit end-to-end, from coordination audit to evolution auditor, producing a full organizational genome, governance framework, quality gates, workflow specifications, role definitions, agent configurations, adoption infrastructure, and evolution mechanisms.
+One Claude Code session, acting as Every's CEO Dan Shipper, ran the complete 14-skill AI-First Org Design Kit end-to-end, from coordination audit to evolution auditor, producing a full organizational genome, governance framework, quality gates, workflow specifications, role definitions, agent configurations, adoption infrastructure, and evolution mechanisms.
 
 No human intervention between phases. The agent answered all interview questions itself, drawing on research from 63 Every newsletters and articles.
 
 ## By the Numbers
 
-| Metric | Value |
-| --- | --- |
-| Total files produced | 75 |
-| Articles researched | 63 |
-| Skills invoked | 13 (full kit) |
-| Genome files | 7 |
-| Governance documents | 7 |
-| Quality gates | 4 (with 23 holdout scenarios) |
-| Workflow specifications | 4 |
-| Roles mapped | 14 |
-| Agent configurations | 5 (with 4 framework exports each) |
-| Claude Code sub-agents | 5 |
-| Claude Code governance skills | 5 |
-| Hard boundaries defined | 9 |
-| Anti-patterns documented | 10 |
-| Team members assessed (maturity) | 19 |
-| AGENT-PRIMER compression ratio | 52:1 |
+
+| Metric                           | Value                             |
+| -------------------------------- | --------------------------------- |
+| Total files produced             | 75                                |
+| Articles researched              | 63                                |
+| Skills invoked                   | 14 (full kit)                     |
+| Genome files                     | 7                                 |
+| Governance documents             | 7                                 |
+| Quality gates                    | 4 (with 23 holdout scenarios)     |
+| Workflow specifications          | 4                                 |
+| Roles mapped                     | 14                                |
+| Agent configurations             | 5 (with 4 framework exports each) |
+| Claude Code sub-agents           | 5                                 |
+| Claude Code governance skills    | 5                                 |
+| Hard boundaries defined          | 9                                 |
+| Anti-patterns documented         | 10                                |
+| Team members assessed (maturity) | 19                                |
+| AGENT-PRIMER compression ratio   | 33:1                              |
+
 
 ## What's Here
 
@@ -38,7 +40,7 @@ No human intervention between phases. The agent answered all interview questions
 
 ```
 org-design/
-├── AGENT-PRIMER.md                          # Distilled operating guide for agents (52:1 compression)
+├── AGENT-PRIMER.md                          # Distilled operating guide for agents (33:1 compression)
 ├── ORG-DESIGN-DUMP-2026-04-02-0120.md       # Full artifact dump (point-in-time snapshot)
 ├── audit-2026-04-01-1427.md                 # Coordination audit (where human time goes)
 ├── political-map-2026-04-01-1436.md         # Stakeholder analysis and change sequencing
@@ -164,7 +166,7 @@ The root `CLAUDE.md` uses `@imports` to load mission, values, and hard boundarie
 
 - `article-source-material.md` — Statistics and context for the article
 - `dan-shipper-style-guide.md` — 389-line writing style profile built from analyzing Dan's articles
-- `session-narrative.md` — Full session narrative of the 13-skill run
+- `session-narrative.md` — Full session narrative of the 14-skill run
 - `session-statistics.md` — Detailed output statistics by category
 - `session-self-critique.md` — Self-assessment and quality analysis
 - `chain-of-thought-insights.md` — Insights from the research phase
@@ -191,7 +193,7 @@ How to deploy and evolve. Five agent configurations (editorial, engineering, con
 
 ### Layer 5: Operationalization (The Bridge)
 
-AGENT-PRIMER.md distills ~9,200 lines into actionable operating rules any agent can load (52:1 compression). CLAUDE.md with @imports so governance auto-loads at session start. Five invokable `/org-*` skills for governance operations. Five Claude Code sub-agents registered for direct invocation via `@agent-name`.
+AGENT-PRIMER.md distills ~7,000 lines of specification into 206 actionable operating rules any agent can load (33:1 compression). CLAUDE.md with @imports so governance auto-loads at session start. Five invokable `/org-*` skills for governance operations. Five Claude Code sub-agents registered for direct invocation via `@agent-name`.
 
 ## Key Insight
 
@@ -199,10 +201,12 @@ The hardest part of AI-first org design is not the framework. It's the excavatio
 
 ## How It Was Made
 
-One Claude Code session ran the complete 13-skill AI-First Org Design Kit, acting as Every's CEO based on research into 63 published articles. The session produced all artifacts without human intervention between phases, then underwent two revision passes for quality and structural conformance.
+One Claude Code session ran the complete 14-skill AI-First Org Design Kit, acting as Every's CEO based on research into 63 published articles. The session produced all artifacts without human intervention between phases, then underwent two revision passes for quality and structural conformance.
 
 ## The Plugin
 
 The AI-First Org Design Kit is available on the [Synapti Marketplace](https://github.com/synaptiai/synapti-marketplace): [ai-first-org-design-kit](https://github.com/synaptiai/synapti-marketplace/tree/main/plugins/ai-first-org-design-kit)
 
 Install via the [Synapti Marketplace](https://github.com/synaptiai/synapti-marketplace) in Claude Code, then run `/ai-first-kit` to start.
+
+The conceptual foundation: [The Specification Economy](https://medium.com/@danielbentes/the-specification-economy-77f7d2297c37)

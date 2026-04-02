@@ -2,7 +2,7 @@
 
 ## What Happened
 
-A single Claude Code session ran the complete 13-skill AI-First Org Design Kit for Every Inc, acting as CEO Dan Shipper. The session produced 50 files totaling 11,907 lines of structured organizational design -- from coordination audit through evolution auditor -- without human intervention between phases.
+A single Claude Code session ran the complete 14-skill AI-First Org Design Kit for Every Inc, acting as CEO Dan Shipper. The session produced 50 files totaling 11,907 lines of structured organizational design -- from coordination audit through evolution auditor -- without human intervention between phases.
 
 ## Timeline
 
@@ -14,7 +14,7 @@ The session began with a comprehensive research sprint. The user requested that 
 1. **Sitemap crawl** — Fetched `every.to/sitemaps/pages.xml` and discovered 2,242 URLs across 30+ columns in 5 sitemap files.
 2. **Company research** — 3 parallel agents researched Every's business model, team, products, and Dan Shipper's philosophy via web search and direct page fetches.
 3. **Newsletter deep-dive** — 3 more parallel agents fetched and extracted insights from 60+ articles across Chain of Thought (Dan's column), Source Code (engineering), and On Every (company updates). This was the critical research investment that enabled authentic CEO-voice answers later.
-4. **Plugin analysis** — 1 agent explored the ai-first-kit plugin structure to map all 13 skills, their order, dependencies, and artifact formats.
+4. **Plugin analysis** — 1 agent explored the ai-first-kit plugin structure to map all 14 skills, their order, dependencies, and artifact formats.
 
 **Key research outputs:**
 - `research/chain-of-thought-insights.md` — 542 lines from 20 Dan Shipper articles
@@ -120,7 +120,7 @@ Holdout scenarios stored separately in `gates/.holdouts/` to prevent executing a
 **Skills:** `operationalize` + `adoption-sprint-designer` + `usage-policy-writer`
 **Duration:** ~5 minutes (parallel)
 
-- **AGENT-PRIMER.md** — 179-line distillation of ~9,200 lines of source artifacts (51:1 compression)
+- **AGENT-PRIMER.md** — 206-line distillation of ~7,000 lines of source specification (33:1 compression)
 - **ORG-DESIGN-DUMP** — 2,671-line full concatenation for archival
 - **2 adoption sprint designs** — Internal "Level 2 to 3" sprint + consulting client template
 - **HUMAN-USAGE-POLICY.md** — Human-facing AI policy with approved tools, data classification, risk reasoning
@@ -130,11 +130,12 @@ Holdout scenarios stored separately in `gates/.holdouts/` to prevent executing a
 **Skills:** `agent-builder` + `evolution-auditor`
 **Duration:** ~7 minutes (parallel)
 
-**4 agent configurations** built:
+**5 agent configurations** built:
 1. Editorial Quality Agent (reviews articles against rigor tests + AI tells)
 2. Compound Engineering Agent (executes Plan→Work→Review→Compound loop)
 3. Consulting PM Agent (formalizes Claudie — Natalia's AI PM)
 4. Content Distribution Agent (formalizes Anthony's Claude+X API system)
+5. Product GM Agent (full-stack product GM operating as solo entrepreneur)
 
 **Evolution infrastructure** established:
 - Baseline evolution audit with governance health metric targets
