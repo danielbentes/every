@@ -104,7 +104,7 @@ Any of the following initiates this workflow:
 - **Input:** Published article
 - **Process:**
   1. Anthony's Claude-powered system generates social media drafts for each article. The system is trained on Every's voice norms and each author's individual voice.
-  2. The drafts pass through the [social-media-publication gate](../gates/social-media-publication.md) — Tier 1 checks: author voice match, thesis capture, factual accuracy, no clickbait.
+  2. The drafts pass through the [social-media-publication gate]({% link org-design/gates/social-media-publication.md %}) — Tier 1 checks: author voice match, thesis capture, factual accuracy, no clickbait.
   3. Anthony reviews drafts that pass the gate, making edits as needed.
   4. The original author approves the final social post (non-negotiable — authors control how their ideas are represented externally).
   5. Posts are published across platforms (X, LinkedIn, others as relevant).
@@ -129,7 +129,7 @@ Any of the following initiates this workflow:
 
 ## Quality Gate
 
-**[Article Publication Gate](../gates/article-publication.md)**
+**[Article Publication Gate]({% link org-design/gates/article-publication.md %})**
 
 Applied between Step 3 (AI tells detection) and Step 4 (Editorial review). The gate runs automated Tier 1 checks (thesis test, AI tells check, experience grounding, voice authenticity, length/structure). Tier 2 checks (learnable value, originality, builder credibility) are advisory and flag for Kate's review.
 

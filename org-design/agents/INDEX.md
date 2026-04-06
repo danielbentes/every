@@ -12,11 +12,11 @@ has_children: true
 
 | Agent | Directory | Role | Authority Scope | Applicable Gates | Human Owner |
 |-------|-----------|------|-----------------|------------------|-------------|
-| [Editorial Quality](./editorial-quality/) | `editorial-quality/` | Reviews articles against three rigor tests + AI tells detection | Tier 1 (analysis), Tier 2 (detection), Tier 3 (publication) | [article-publication](../gates/article-publication.md) | Kate Lee + Katie Parrott |
-| [Compound Engineering](./compound-engineering/) | `compound-engineering/` | Executes Plan→Work→Review→Compound cycle | Tier 1 (code gen/review), Tier 2 (auto-fix/compound), Tier 3 (merge) | [code-merge](../gates/code-merge.md) | Product GM (Kieran/Naveen/Yash/Danny) |
-| [Consulting PM (Claudie)](./consulting-pm/) | `consulting-pm/` | Manages consulting engagement logistics, status, deliverables | Tier 1 (internal), Tier 2 (status/prep), Tier 3 (deliverables) | [consulting-deliverable](../gates/consulting-deliverable.md) | Natalia Quintero |
-| [Content Distribution](./content-distribution/) | `content-distribution/` | Generates social posts from published articles | Tier 1 (draft gen), Tier 2 (queue), Tier 3 (posting) | [social-media-publication](../gates/social-media-publication.md) | Anthony Scarpulla |
-| [Product GM](./product-gm/) | `product-gm/` | Full-stack specification authority: PRDs, compound engineering cycle, merge decisions | Tier 1 (code gen/review/triage), Tier 2 (auto-fix/compound), Tier 3 (merge) | [code-merge](../gates/code-merge.md) | Product GM (Kieran/Naveen/Yash/Danny) |
+| [Editorial Quality]({% link org-design/agents/editorial-quality/index.md %}) | `editorial-quality/` | Reviews articles against three rigor tests + AI tells detection | Tier 1 (analysis), Tier 2 (detection), Tier 3 (publication) | [article-publication]({% link org-design/gates/article-publication.md %}) | Kate Lee + Katie Parrott |
+| [Compound Engineering]({% link org-design/agents/compound-engineering/index.md %}) | `compound-engineering/` | Executes Plan→Work→Review→Compound cycle | Tier 1 (code gen/review), Tier 2 (auto-fix/compound), Tier 3 (merge) | [code-merge]({% link org-design/gates/code-merge.md %}) | Product GM (Kieran/Naveen/Yash/Danny) |
+| [Consulting PM (Claudie)]({% link org-design/agents/consulting-pm/index.md %}) | `consulting-pm/` | Manages consulting engagement logistics, status, deliverables | Tier 1 (internal), Tier 2 (status/prep), Tier 3 (deliverables) | [consulting-deliverable]({% link org-design/gates/consulting-deliverable.md %}) | Natalia Quintero |
+| [Content Distribution]({% link org-design/agents/content-distribution/index.md %}) | `content-distribution/` | Generates social posts from published articles | Tier 1 (draft gen), Tier 2 (queue), Tier 3 (posting) | [social-media-publication]({% link org-design/gates/social-media-publication.md %}) | Anthony Scarpulla |
+| [Product GM]({% link org-design/agents/product-gm/index.md %}) | `product-gm/` | Full-stack specification authority: PRDs, compound engineering cycle, merge decisions | Tier 1 (code gen/review/triage), Tier 2 (auto-fix/compound), Tier 3 (merge) | [code-merge]({% link org-design/gates/code-merge.md %}) | Product GM (Kieran/Naveen/Yash/Danny) |
 
 ## Directory Structure Per Agent
 

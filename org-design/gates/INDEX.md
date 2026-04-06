@@ -32,20 +32,20 @@ Social draft → [social-media-publication gate] → Anthony reviews → Author 
 
 | Gate | Type | Blocking | Original Approver | New Role | Political Risk |
 |------|------|----------|-------------------|----------|---------------|
-| [article-publication](article-publication.md) | Sequential | Tier 1-2 blocking | Kate Lee (EIC) | Quality Architect — designs evolving criteria, reviews flags, retains veto | Medium |
-| [code-merge](code-merge.md) | Sequential | Tier 1-2 blocking | Product GMs | Unchanged — gate formalizes existing review process | Low |
-| [consulting-deliverable](consulting-deliverable.md) | Sequential | Tier 1-2 blocking | Natalia Quintero | Practice Architect — designs engagement framework, reviews flags | Medium |
-| [social-media-publication](social-media-publication.md) | Sequential | Tier 1 blocking | Anthony Scarpulla + Author | Unchanged — gate is first-pass filter, humans retain all approval | Low |
+| [article-publication]({% link org-design/gates/article-publication.md %}) | Sequential | Tier 1-2 blocking | Kate Lee (EIC) | Quality Architect — designs evolving criteria, reviews flags, retains veto | Medium |
+| [code-merge]({% link org-design/gates/code-merge.md %}) | Sequential | Tier 1-2 blocking | Product GMs | Unchanged — gate formalizes existing review process | Low |
+| [consulting-deliverable]({% link org-design/gates/consulting-deliverable.md %}) | Sequential | Tier 1-2 blocking | Natalia Quintero | Practice Architect — designs engagement framework, reviews flags | Medium |
+| [social-media-publication]({% link org-design/gates/social-media-publication.md %}) | Sequential | Tier 1 blocking | Anthony Scarpulla + Author | Unchanged — gate is first-pass filter, humans retain all approval | Low |
 
 ## Holdout Scenarios
 Located in `gates/.holdouts/` — separate from gate specs to prevent executing agents from seeing evaluation criteria.
 
 | Gate | Holdout File | Scenarios |
 |------|-------------|-----------|
-| article-publication | [.holdouts/article-publication-holdouts.md](.holdouts/article-publication-holdouts.md) | 7 scenarios |
-| code-merge | [.holdouts/code-merge-holdouts.md](.holdouts/code-merge-holdouts.md) | 6 scenarios |
-| consulting-deliverable | [.holdouts/consulting-deliverable-holdouts.md](.holdouts/consulting-deliverable-holdouts.md) | 5 scenarios |
-| social-media-publication | [.holdouts/social-media-publication-holdouts.md](.holdouts/social-media-publication-holdouts.md) | 5 scenarios |
+| article-publication | [article-publication-holdouts]({% link org-design/gates/.holdouts/article-publication-holdouts.md %}) | 7 scenarios |
+| code-merge | [code-merge-holdouts]({% link org-design/gates/.holdouts/code-merge-holdouts.md %}) | 6 scenarios |
+| consulting-deliverable | [consulting-deliverable-holdouts]({% link org-design/gates/.holdouts/consulting-deliverable-holdouts.md %}) | 5 scenarios |
+| social-media-publication | [social-media-publication-holdouts]({% link org-design/gates/.holdouts/social-media-publication-holdouts.md %}) | 5 scenarios |
 
 ## Approval Holder → Quality Architect Mapping
 

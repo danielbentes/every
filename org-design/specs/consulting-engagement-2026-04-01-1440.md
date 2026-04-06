@@ -112,7 +112,7 @@ A consulting engagement begins when:
 
 ## Quality Gate
 
-**[Consulting Deliverable Gate](../gates/consulting-deliverable.md)**
+**[Consulting Deliverable Gate]({% link org-design/gates/consulting-deliverable.md %})**
 
 Applied before any deliverable is shared with a client — including strategy assessments, built tools, training materials, and status reports.
 

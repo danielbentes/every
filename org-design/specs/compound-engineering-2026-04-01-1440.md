@@ -146,7 +146,7 @@ Any of the following initiates a feature cycle:
 
 ## Quality Gate
 
-**[Code Merge Gate](../gates/code-merge.md)**
+**[Code Merge Gate]({% link org-design/gates/code-merge.md %})**
 
 Applied between Step 3 (Review) and Step 5 (Merge and Deploy). The gate enforces:
 
