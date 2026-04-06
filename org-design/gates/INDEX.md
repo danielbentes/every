@@ -38,14 +38,14 @@ Social draft → [social-media-publication gate] → Anthony reviews → Author 
 | [social-media-publication]({{ site.baseurl }}{% link org-design/gates/social-media-publication.md %}) | Sequential | Tier 1 blocking | Anthony Scarpulla + Author | Unchanged — gate is first-pass filter, humans retain all approval | Low |
 
 ## Holdout Scenarios
-Located in `gates/.holdouts/` — separate from gate specs to prevent executing agents from seeing evaluation criteria.
+Located in `gates/holdouts/` — separate from gate specs to prevent executing agents from seeing evaluation criteria.
 
 | Gate | Holdout File | Scenarios |
 |------|-------------|-----------|
-| article-publication | [article-publication-holdouts](.holdouts/article-publication-holdouts.md) | 7 scenarios |
-| code-merge | [code-merge-holdouts](.holdouts/code-merge-holdouts.md) | 6 scenarios |
-| consulting-deliverable | [consulting-deliverable-holdouts](.holdouts/consulting-deliverable-holdouts.md) | 5 scenarios |
-| social-media-publication | [social-media-publication-holdouts](.holdouts/social-media-publication-holdouts.md) | 5 scenarios |
+| article-publication | [article-publication-holdouts](holdouts/article-publication-holdouts.md) | 7 scenarios |
+| code-merge | [code-merge-holdouts](holdouts/code-merge-holdouts.md) | 6 scenarios |
+| consulting-deliverable | [consulting-deliverable-holdouts](holdouts/consulting-deliverable-holdouts.md) | 5 scenarios |
+| social-media-publication | [social-media-publication-holdouts](holdouts/social-media-publication-holdouts.md) | 5 scenarios |
 
 ## Approval Holder → Quality Architect Mapping
 

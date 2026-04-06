@@ -7,9 +7,6 @@ baseurl: "/every"
 
 remote_theme: just-the-docs/just-the-docs@v0.10.1
 
-include:
-  - "org-design/gates/.holdouts"
-
 exclude:
   - README.md
   - CLAUDE.md
