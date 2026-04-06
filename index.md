@@ -9,7 +9,7 @@ permalink: /
 
 A single Claude Code session ran the complete [AI-First Org Design Kit](https://github.com/synaptiai/synapti-marketplace/tree/main/plugins/ai-first-org-design-kit) on Every Inc, acting as CEO Dan Shipper based on research into 63 published articles. It produced a full organizational specification — from identity and governance to agent configurations and evolution mechanisms — without human intervention between phases.
 
-The [article]({% link article.md %}) is itself part of the experiment: written as Dan, in his voice, about the process of encoding Every's organizational operating system.
+The [article]({{ site.baseurl }}{% link article.md %}) is itself part of the experiment: written as Dan, in his voice, about the process of encoding Every's organizational operating system.
 
 ## By the Numbers
 
@@ -31,15 +31,15 @@ The [article]({% link article.md %}) is itself part of the experiment: written a
 
 ## What's Here
 
-- **[Overview]({% link org-design/overview.md %})** — Coordination audit, political map, role definitions, and the compressed agent primer
-- **[Genome]({% link org-design/genome/index.md %})** — Who Every is: mission, values as decision rules, voice norms, quality standards
-- **[Governance]({% link org-design/governance/index.md %})** — How agents operate: authority tiers, hard boundaries, escalation protocols
-- **[Quality Gates]({% link org-design/gates/INDEX.md %})** — Four gates with 23 hidden holdout scenarios for validation
-- **[Specifications]({% link org-design/specs/index.md %})** — Workflow specs for article production, engineering, consulting, podcasts
-- **[Agents]({% link org-design/agents/INDEX.md %})** — Five agent configurations with system prompts, tool permissions, and self-review
-- **[Adoption]({% link org-design/adoption/index.md %})** — Maturity ladder (19 people assessed) and sprint designs
-- **[Evolution]({% link org-design/evolution/index.md %})** — Decision ledger and monthly governance review cycle
-- **[Reference]({% link research/index.md %})** — Research material and session logs
+- **[Overview]({{ site.baseurl }}{% link org-design/overview.md %})** — Coordination audit, political map, role definitions, and the compressed agent primer
+- **[Genome]({{ site.baseurl }}{% link org-design/genome/index.md %})** — Who Every is: mission, values as decision rules, voice norms, quality standards
+- **[Governance]({{ site.baseurl }}{% link org-design/governance/index.md %})** — How agents operate: authority tiers, hard boundaries, escalation protocols
+- **[Quality Gates]({{ site.baseurl }}{% link org-design/gates/INDEX.md %})** — Four gates with 23 hidden holdout scenarios for validation
+- **[Specifications]({{ site.baseurl }}{% link org-design/specs/index.md %})** — Workflow specs for article production, engineering, consulting, podcasts
+- **[Agents]({{ site.baseurl }}{% link org-design/agents/INDEX.md %})** — Five agent configurations with system prompts, tool permissions, and self-review
+- **[Adoption]({{ site.baseurl }}{% link org-design/adoption/index.md %})** — Maturity ladder (19 people assessed) and sprint designs
+- **[Evolution]({{ site.baseurl }}{% link org-design/evolution/index.md %})** — Decision ledger and monthly governance review cycle
+- **[Reference]({{ site.baseurl }}{% link research/index.md %})** — Research material and session logs
 
 ## The Plugin
 

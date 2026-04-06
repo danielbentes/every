@@ -32,10 +32,10 @@ Social draft → [social-media-publication gate] → Anthony reviews → Author 
 
 | Gate | Type | Blocking | Original Approver | New Role | Political Risk |
 |------|------|----------|-------------------|----------|---------------|
-| [article-publication]({% link org-design/gates/article-publication.md %}) | Sequential | Tier 1-2 blocking | Kate Lee (EIC) | Quality Architect — designs evolving criteria, reviews flags, retains veto | Medium |
-| [code-merge]({% link org-design/gates/code-merge.md %}) | Sequential | Tier 1-2 blocking | Product GMs | Unchanged — gate formalizes existing review process | Low |
-| [consulting-deliverable]({% link org-design/gates/consulting-deliverable.md %}) | Sequential | Tier 1-2 blocking | Natalia Quintero | Practice Architect — designs engagement framework, reviews flags | Medium |
-| [social-media-publication]({% link org-design/gates/social-media-publication.md %}) | Sequential | Tier 1 blocking | Anthony Scarpulla + Author | Unchanged — gate is first-pass filter, humans retain all approval | Low |
+| [article-publication]({{ site.baseurl }}{% link org-design/gates/article-publication.md %}) | Sequential | Tier 1-2 blocking | Kate Lee (EIC) | Quality Architect — designs evolving criteria, reviews flags, retains veto | Medium |
+| [code-merge]({{ site.baseurl }}{% link org-design/gates/code-merge.md %}) | Sequential | Tier 1-2 blocking | Product GMs | Unchanged — gate formalizes existing review process | Low |
+| [consulting-deliverable]({{ site.baseurl }}{% link org-design/gates/consulting-deliverable.md %}) | Sequential | Tier 1-2 blocking | Natalia Quintero | Practice Architect — designs engagement framework, reviews flags | Medium |
+| [social-media-publication]({{ site.baseurl }}{% link org-design/gates/social-media-publication.md %}) | Sequential | Tier 1 blocking | Anthony Scarpulla + Author | Unchanged — gate is first-pass filter, humans retain all approval | Low |
 
 ## Holdout Scenarios
 Located in `gates/.holdouts/` — separate from gate specs to prevent executing agents from seeing evaluation criteria.

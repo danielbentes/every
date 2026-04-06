@@ -145,7 +145,7 @@ A new episode cycle begins when:
   3. **Social post drafts:** For each clip, Anthony's team generates accompanying post text that:
      - Captures the insight in the clip
      - Links to the full episode
-     - Passes the [social-media-publication gate]({% link org-design/gates/social-media-publication.md %}) (no clickbait, accurate, in Dan's voice)
+     - Passes the [social-media-publication gate]({{ site.baseurl }}{% link org-design/gates/social-media-publication.md %}) (no clickbait, accurate, in Dan's voice)
   4. Dan approves the final clips and social posts before publication.
 - **Output:** 2-4 social clips with accompanying posts, ready for distribution
 - **Criteria for completion:** Clips capture genuine insights (not just entertaining moments). Posts pass the social gate. Dan has approved.
@@ -185,7 +185,7 @@ There is no dedicated podcast publication gate in the current gate architecture.
 
 1. **Guest selection (Step 1):** Builder credibility screen is the primary quality gate — it's a hard filter, not a soft preference. Guests who don't build are not booked, period.
 2. **Editorial review (Steps 4-5):** Dan's host judgment during recording and Rachel's editing judgment during post-production serve as taste gates. The debrief after recording explicitly checks: "Did we get 3+ actionable insights?"
-3. **Social distribution:** Social clips pass through the [social-media-publication gate]({% link org-design/gates/social-media-publication.md %}) before posting.
+3. **Social distribution:** Social clips pass through the [social-media-publication gate]({{ site.baseurl }}{% link org-design/gates/social-media-publication.md %}) before posting.
 
 **Recommendation:** If podcast volume grows beyond 41 episodes/year or if new hosts are added beyond Dan, a formal podcast-publication gate should be designed following the pattern established for articles and consulting deliverables.
 
