@@ -42,10 +42,10 @@ Located in `gates/.holdouts/` — separate from gate specs to prevent executing 
 
 | Gate | Holdout File | Scenarios |
 |------|-------------|-----------|
-| article-publication | [article-publication-holdouts]({% link org-design/gates/.holdouts/article-publication-holdouts.md %}) | 7 scenarios |
-| code-merge | [code-merge-holdouts]({% link org-design/gates/.holdouts/code-merge-holdouts.md %}) | 6 scenarios |
-| consulting-deliverable | [consulting-deliverable-holdouts]({% link org-design/gates/.holdouts/consulting-deliverable-holdouts.md %}) | 5 scenarios |
-| social-media-publication | [social-media-publication-holdouts]({% link org-design/gates/.holdouts/social-media-publication-holdouts.md %}) | 5 scenarios |
+| article-publication | [article-publication-holdouts](.holdouts/article-publication-holdouts.md) | 7 scenarios |
+| code-merge | [code-merge-holdouts](.holdouts/code-merge-holdouts.md) | 6 scenarios |
+| consulting-deliverable | [consulting-deliverable-holdouts](.holdouts/consulting-deliverable-holdouts.md) | 5 scenarios |
+| social-media-publication | [social-media-publication-holdouts](.holdouts/social-media-publication-holdouts.md) | 5 scenarios |
 
 ## Approval Holder → Quality Architect Mapping
 
